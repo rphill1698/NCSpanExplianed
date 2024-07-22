@@ -1,4 +1,6 @@
-﻿
+﻿// small note - sometimes it is worth returning type as a span instead of a string, especially when you are going to use it in a method that will be called multiple times.`
+// The user of the function can convert to strin gas needed but of course can furhter use spane to pick out details.
+
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
